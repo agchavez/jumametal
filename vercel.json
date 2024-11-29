@@ -1,6 +1,6 @@
 {
-    "rewrites": [
-      { "source": "/Imagenes/(.*)", "destination": "/Imagenes/$1" }
-    ]
-  }
-  
+  "rewrites": [
+    { "source": "/Imagenes/(.*)", "destination": "/Imagenes/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
